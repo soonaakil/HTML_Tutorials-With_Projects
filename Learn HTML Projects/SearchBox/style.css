@@ -1,0 +1,65 @@
+/* Reset some default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Body style */
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+} */
+
+/* Container for search input */
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #888;
+    margin-right: 10px;
+}
+
+/* Disabled button styling */
+button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+/* Style for the search icon */
+.fas.fa-search {
+    font-size: 20px;
+    color: #888;
+}
